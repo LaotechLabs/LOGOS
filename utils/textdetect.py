@@ -37,9 +37,9 @@ class textdetection:
 
         print('Loading weights from checkpoint (' + 'craft_mlt_25k.pth' + ')')
         if self.cuda==True:
-            self.net.load_state_dict(self.__copyStateDict(torch.load('models/CRAFT-pytorch/craft_mlt_25k.pth')))
+            self.net.load_state_dict(self.__copyStateDict(torch.load('craft_mlt_25k.pth')))
         else:
-            self.net.load_state_dict(self.__copyStateDict(torch.load('models/CRAFT-pytorch/craft_mlt_25k.pth', map_location='cpu')))
+            self.net.load_state_dict(self.__copyStateDict(torch.load('craft_mlt_25k.pth', map_location='cpu')))
 
         if self.cuda:
             self.net = self.net.cuda()
@@ -98,5 +98,3 @@ class textdetection:
     def predict(self, image):
       bboxes, _, _ = self.__test_net(image)
       return bboxes
-
-textdetector = textdetection()
