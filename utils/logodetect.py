@@ -8,8 +8,8 @@ import os
 
 class logodetection:
     def __init__(self) -> None:
-        checkpoint_path_1 = '/content/models/logo_model/logo-retinanet-checkpoint-52k_384_50.pth'
-        checkpoint_path_2 = '/content/models/logo_model/logo-retinanet-checkpoint-30000_30.pth'
+        checkpoint_path_1 = '/content/LOGOS/utils/models/logo_model/logo-retinanet-checkpoint-52k_384_50.pth'
+        checkpoint_path_2 = '/content/LOGOS/utils/models/logo_model/logo-retinanet-checkpoint-30000_30.pth'
         self.image_size = 384
         self.valid_tfms = tfms.A.Adapter([*tfms.A.resize_and_pad(self.image_size), tfms.A.Normalize()])
         self.iou_threshold = 0.7
