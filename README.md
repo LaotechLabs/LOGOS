@@ -11,13 +11,12 @@ The Repository includes:
   - Pretrained weights for the model
   - Annotations for the datasets
   
- The code is documented and designed to be easy to understand. If you wish to collaborate we would be delighted to review your pull requests.
  
 ## Getting Started
 
 | File Name                   	| Description                                                                                                                          	|                                                                                                                                                                                	|
 |-----------------------------	|--------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| inference.ipynb             	| It is the easiest way to start. It shows an example of how to perform inference on an imagewith the help of the pre trained weights. 	| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/inference.ipynb)             	|
+| inference.ipynb             	| It is the easiest way to start. It shows an example of how to perform inference on an image with the help of the pre trained weights. 	| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/inference.ipynb)             	|
 | download_and_annotate.ipynb 	| It shows how to download and generate the annotations for LogoDet3K and Visually29K datasets                                         	| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/download_and_annotate.ipynb) 	|
 | Training.ipynb              	| Shows how to train the model using LogoDet-3K and Visually29K datasets                                                               	| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/Training.ipynb)              	|
 
@@ -27,3 +26,15 @@ The Repository includes:
 |-------------	|--------------------------------------------------	|
 | LogoDet-3K   	| https://www.kaggle.com/datasets/lyly99/logodet3k 	|
 | Visuallydata 	| https://github.com/diviz-mit/visuallydata        	|
+
+## Contributing
+
+Contributions to this repository are welcome.
+
+## Requirements
+
+Python 3.7, torch==1.10.0, torchvision==0.11.1, icevision==0.12.0
+
+## Installation
+
+If you are using colab all installation instructions are given in the first cell of the notebooks
