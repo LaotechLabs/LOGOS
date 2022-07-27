@@ -13,7 +13,7 @@ The Repository includes:
   
  The code is documented and designed to be easy to understand. If you wish to collaborate we would be delighted to review your pull requests.
  
- ## Getting Started
- inference.ipynb : It is the easiest way to start. It shows an example of how to do inference with the help of the pre trained weights.
- download_and_annotate.ipynb : It shows how to download and generate the annotations for LogoDet3K and Visually29K datasets
- Training.ipynb : Shows how to train on LogoDet-3K and Visually29K datasets
+## Getting Started
+- inference.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/inference.ipynb): It is the easiest way to start. It shows an example of how to do inference with the help of the pre trained weights.
+- download_and_annotate.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/download_and_annotate.ipynb): It shows how to download and generate the annotations for LogoDet3K and Visually29K datasets
+- Training.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LaotechLabs/LOGOS/blob/main/Training.ipynb): Shows how to train on LogoDet-3K and Visually29K datasets
