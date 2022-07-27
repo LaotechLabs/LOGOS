@@ -2,6 +2,8 @@
 
 This is an implementation of LOGOS on Python 3.7.13, IceVision, and Fastai. The model generates bounding boxes for each instance of a logo in the image. It's based on retinanet and a ResNet50 backbone.
 
+![](./images/cover.JPG)
+
 The Repository includes:
   - Jupyter notebook to train the model
   - Jupyter notebook to download and annotate the model
