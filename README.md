@@ -24,7 +24,7 @@ The Repository includes:
 
 | Dataset     	| Link                                             	|
 |-------------	|--------------------------------------------------	|
-| LogoDet-3K   	| https://www.kaggle.com/datasets/lyly99/logodet3k 	|
+| LogoDet-3K   	| https://github.com/LaotechLabs/LOGOS 	            |
 | Visuallydata 	| https://github.com/diviz-mit/visuallydata        	|
 
 ## Contributing
