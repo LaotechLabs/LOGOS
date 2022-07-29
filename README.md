@@ -24,7 +24,7 @@ The Repository includes:
 
 | Dataset     	| Link                                             	|
 |-------------	|--------------------------------------------------	|
-| LogoDet-3K   	| https://github.com/LaotechLabs/LOGOS 	            |
+| LogoDet-3K   	| https://github.com/Wangjing1551/LogoDet-3K-Dataset|
 | Visuallydata 	| https://github.com/diviz-mit/visuallydata        	|
 
 ## Contributing
