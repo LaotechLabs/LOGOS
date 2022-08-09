@@ -38,3 +38,5 @@ Python 3.7, torch==1.10.0, torchvision==0.11.1, icevision==0.12.0
 ## Installation
 
 If you are using colab all installation instructions are given in the first cell of the notebooks
+
+#### You may checkout the blog for a detailed explanation about the project- https://www.analyticsvidhya.com/blog/2022/08/logos-a-brand-independent-logo-detection-model/ 
