@@ -27,6 +27,13 @@ The Repository includes:
 | LogoDet-3K   	| https://github.com/Wangjing1551/LogoDet-3K-Dataset|
 | Visuallydata 	| https://github.com/diviz-mit/visuallydata        	|
 
+## Model Weights
+
+| Weights                                  	| Link                                                                               	|
+|------------------------------------------	|------------------------------------------------------------------------------------	|
+| logo-retinanet-checkpoint-52k_384_50.pth 	| https://drive.google.com/file/d/1GKL15g_-g3xpUwW8tVLMKQPIv-7C77ql/view?usp=sharing 	|
+| logo-retinanet-checkpoint-30000_30.pth   	| https://drive.google.com/file/d/1iLAgefVtpRZhMZwCrO1hfFpBXq5CDcrS/view?usp=sharing 	|
+
 ## Contributing
 
 Contributions to this repository are welcome.
