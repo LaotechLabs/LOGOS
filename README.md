@@ -1,6 +1,6 @@
 # LOGOS: A Brand Independent logo detection model
 
-This is an implementation of LOGOS on Python 3.7.13, IceVision, and Fastai. The model generates bounding boxes for each instance of a logo in the image. It's based on retinanet and a ResNet50 backbone.
+This is an implementation of LOGOS on Python 3.7.13, IceVision, and Fastai. LOGOS explores the idea of recognizing the presence of a logo in an image, irrespective of the brand to which it belongs. The model generates bounding boxes for each instance of a logo in the image. It's based on retinanet and a ResNet50 backbone.
 
 ![](./images/cover.JPG)
 
